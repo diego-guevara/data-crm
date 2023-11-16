@@ -1,5 +1,6 @@
 <?php
 $basePath = env('APP_BASE_PATH', false);
+$anio = date("Y");
 ?>
 
 <!DOCTYPE html>
@@ -8,15 +9,15 @@ $basePath = env('APP_BASE_PATH', false);
 <!-- begin::Head -->
 
 <head>
-	<title>{{config('app.name','titulo no definido')}}</title>
+	<title>{{config('app.name','Mejor CRM (DATACRM) ')}} <?php echo $anio; ?> </title>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="author" content="Diego Guevara" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+	<meta name="keywords" content="CRM, DATA, SOFTWARE, MÓVIL, NEGOCIO, ACTIVIDADES" />
+	<meta name="description" content="¡Información actualizada con DataCRM a donde vayas!" />
 	@include('_partials.css')
 </head>
 

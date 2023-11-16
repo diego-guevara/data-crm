@@ -5,8 +5,9 @@
 				<div class="row d-flex flex-wrap justify-content-between">
 					<div class="col-sm-12 col-md-12 col-lg-2 pb-3">
 						<div class="footer-menu text-uppercase">
-							<h5 class="widget-title pb-2 text-white">Quick Links</h5>
-							<ul class="menu-list list-unstyled text-uppercase">
+
+							<span class="widget-title text-white fs-5">DATA CRM</span>
+							<ul class="menu-list list-unstyled text-uppercase pt-2">
 								<li class="menu-item pb-2">
 									<a href="#" class="">Nosotros</a>
 								</li>
@@ -22,8 +23,8 @@
 
 					<div class="col-sm-12 col-md-12 col-lg-2 pb-3">
 						<div class="footer-menu text-uppercase">
-							<h5 class="widget-title pb-2 text-white">Producto</h5>
-							<ul class="menu-list list-unstyled text-uppercase">
+							<span class="widget-title text-white fs-5">Producto</span>
+							<ul class="menu-list list-unstyled text-uppercase pt-2">
 								<li class="menu-item pb-2">
 									<a href="#">CRM por Sector</a>
 								</li>
@@ -45,8 +46,8 @@
 
 					<div class="col-sm-12 col-md-12 col-lg-2 pb-3">
 						<div class="footer-menu text-uppercase">
-							<h5 class="widget-title pb-2 text-white">Países</h5>
-							<ul class="menu-list list-unstyled text-uppercase">
+							<span class="widget-title text-white fs-5">Paises</span>
+							<ul class="menu-list list-unstyled text-uppercase pt-2">
 								<li class="menu-item pb-2">
 									<a href="#">CRM Colombia</a>
 								</li>
@@ -77,8 +78,8 @@
 
 					<div class="col-sm-12 col-md-12 col-lg-2 pb-3">
 						<div class="footer-menu text-uppercase">
-							<h5 class="widget-title pb-2 text-white">Capacítate</h5>
-							<ul class="menu-list list-unstyled text-uppercase">
+							<span class="widget-title text-white fs-5">Capacítate</span>
+							<ul class="menu-list list-unstyled text-uppercase pt-2">
 								<li class="menu-item pb-2">
 									<a href="#">Centro de Ayuda</a>
 								</li>
@@ -94,9 +95,9 @@
 
 					<div class="col-sm-12 col-md-12 col-lg-2 pb-3">
 						<div class="footer-menu text-uppercase">
-							<h5 class="widget-title pb-2 text-white">Apps Disponibles</h5>
-							<img src="<?php echo $basePath; ?>template-crm/images/home_banner_app_playstore.webp" alt="" width="40%" />
-							<img src="<?php echo $basePath; ?>template-crm/images/home_banner_app_appstore.webp" alt="" width="40%" />
+							<span class="widget-title text-white fs-5 ">Apps Disponibles</span>
+							<img src="<?php echo $basePath; ?>template-crm/images/home_banner_app_playstore.webp" alt="Disponible Play Store" height="50" width="90" class="img-fluid pt-2" />
+							<img src="<?php echo $basePath; ?>template-crm/images/home_banner_app_appstore.webp" alt="Disponible App store" height="50" width="90" class="img-fluid pt-2" />
 						</div>
 					</div>
 				</div>
@@ -112,7 +113,7 @@
 			<div class="col-sm-12 col-md-12 col-lg-2">
 				<div class="Shipping d-flex">
 					<div class="">
-						<img src="<?php echo $basePath; ?>template-crm/images/Logodata_Horizontalblanco180x58.webp" alt="" />
+						<img src="<?php echo $basePath; ?>template-crm/images/Logodata_Horizontalblanco180x58.webp" alt="Logo DATA CRM" height="58" width="180" class="img-fluid" />
 					</div>
 				</div>
 			</div>
