@@ -332,7 +332,7 @@ $basePath = env('APP_BASE_PATH', false);
           comerciales. Nos ha ayudado a mejorar la gestión con los clientes.
         </p>
 
-        <img src="<?php echo $basePath; ?>template-crm/images/toxement_caso_exito.png" alt="Toxement Caso de Exito" width="121" height="60" class="img-fluid" />
+        <img src="<?php echo $basePath; ?>template-crm/images/toxement_caso_exito.webp" alt="Toxement Caso de Exito" width="121" height="60" class="img-fluid" />
       </div>
     </div>
 
@@ -352,7 +352,6 @@ $basePath = env('APP_BASE_PATH', false);
 <!--section preferidos-->
 
 <!--section unete-->
-
 <section id="unete" class="padding-large">
   <div class="container">
     <div class="row d-flex align-items-center">
@@ -360,7 +359,7 @@ $basePath = env('APP_BASE_PATH', false);
         <div class="text-center">
           <span class="fs-4"> ÚNETE A MILES DE USUARIOS EN COLOMBIA, MÉXICO Y TODA
             LATINOAMÉRICA QUE HAN REVOLUCIONADO LA FORMA EN LA QUE HACEN SUS
-            VENTAS CON DATACRM</span><br>
+            VENTAS CON <span class="title-blue" >DATACRM</span><br>
 
           <button type="button" class="btn btn-blue mt-5 btn-lg">
             ¡Lo necesito!
