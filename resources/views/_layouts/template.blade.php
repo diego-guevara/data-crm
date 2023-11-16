@@ -5,9 +5,7 @@ $anio = date("Y");
 
 <!DOCTYPE html>
 <html lang="es">
-
 <!-- begin::Head -->
-
 <head>
 	<title>{{config('app.name','Mejor CRM (DATACRM) ')}} <?php echo $anio; ?> </title>
 	<meta charset="utf-8" />
@@ -20,13 +18,10 @@ $anio = date("Y");
 	<meta name="description" content="¡Información actualizada con DataCRM a donde vayas!" />
 	@include('_partials.css')
 </head>
-
 <head>
-	<!-- end::Head -->
+<!-- end::Head -->
 
-
-	<!-- begin::Body -->
-
+<!-- begin::Body -->
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
 
 	<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
@@ -53,7 +48,5 @@ $anio = date("Y");
 	@include('_partials.scripts')
 	@stack('scripts')
 </body>
-
 <!-- end::Body -->
-
 </html>

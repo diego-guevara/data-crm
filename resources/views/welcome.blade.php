@@ -62,7 +62,7 @@ $basePath = env('APP_BASE_PATH', false);
           Prueba esta funcionalidad
         </button>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="col-sm-12 col-md-12 col-lg-4 order-first order-lg-1">
         <div class="text-center">
           <img src="<?php echo $basePath; ?>template-crm/images/aplicacion_de_CRM_movil_para_ventas.webp" alt="Negocio y control APP" height="289" width="443" class="img-fluid" />
         </div>
@@ -119,7 +119,7 @@ $basePath = env('APP_BASE_PATH', false);
 
         <button type="button" class="btn btn-blue btn-lg">!Me interesa!</button>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="col-sm-12 col-md-12 col-lg-4 order-first order-lg-1">
         <div class="text-center">
           <img src="<?php echo $basePath; ?>template-crm/images/seguimiento_a_clientes_desde_crm_movil.webp" alt="Vista Global desde tu Celular" height="447" width="423" class="img-fluid" />
         </div>
@@ -185,7 +185,7 @@ $basePath = env('APP_BASE_PATH', false);
         </button>
 
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="col-sm-12 col-md-12 col-lg-4 order-first order-lg-1">
         <div class="text-center">
           <img src="<?php echo $basePath; ?>template-crm/images/crm_para_Android_iOS.webp" alt="Cotizaciones" height="393" width="513" class="img-fluid" />
         </div>
@@ -211,7 +211,7 @@ $basePath = env('APP_BASE_PATH', false);
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="col-sm-12 col-md-12 col-lg-4 order-first order-lg-1">
         <div class="text-center">
           <img src="<?php echo $basePath; ?>template-crm/images/calendario_en_crm_movil.webp" alt="Calendario" height="251" width="409" class="img-fluid" />
         </div>
@@ -298,7 +298,7 @@ $basePath = env('APP_BASE_PATH', false);
           la posibilidad de generar reportes confiables, precisos y rápidos.
         </p>
 
-        <img src="<?php echo $basePath; ?>template-crm/images/informese_caso_de_exito.png" alt="Casos de Exito" width="121" height="60" class="img-fluid" />
+        <img src="<?php echo $basePath; ?>template-crm/images/informese_caso_de_exito.webp" alt="Casos de Exito" width="121" height="60" class="img-fluid" />
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-4 pb-5">
@@ -316,7 +316,7 @@ $basePath = env('APP_BASE_PATH', false);
           cliente.
         </p>
 
-        <img src="<?php echo $basePath; ?>template-crm/images/radiopolis_caso_exito.png" alt="RadioPolis Caso de Exito" width="121" height="60" class="img-fluid" />
+        <img src="<?php echo $basePath; ?>template-crm/images/radiopolis_caso_exito.webp" alt="RadioPolis Caso de Exito" width="121" height="60" class="img-fluid" />
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-4 pb-5">
