@@ -1,14 +1,134 @@
 <?php
-$basePath = env('APP_BASE_PATH', false);
+$basePath=env('APP_BASE_PATH', false);
 ?>
 
-@extends('_layouts.template')
-
-@section('content')
 
 
- <!--section banner-->
- <section id="banner" class="position-relative overflow-hidden bg-white">
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- head -->
+    <title>DATACRM</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="Diego Guevara" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>template-crm/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $basePath; ?>template-crm/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="<?php echo $basePath; ?>template-crm/js/modernizr.js"></script>
+    
+     <!-- head -->
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true"
+    tabindex="0"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        id="navbar-icon"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"
+        />
+      </symbol>
+    </svg>
+
+  
+
+    <header
+      id="header"
+      class="site-header header-scrolled position-fixed text-black bg-gradient-green-blue"
+    >
+      <div class="container">
+        <nav id="header-nav" class="navbar navbar-expand-lg px-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="<?php echo $basePath; ?>template-crm/images/Logodata_Horizontalblanco180x58.webp"
+                class="logo"
+              />
+            </a>
+            <button
+              class="navbar-toggler d-flex d-lg-none order-3 p-2"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#bdNavbar"
+              aria-controls="bdNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg class="navbar-icon">
+                <use xlink:href="#navbar-icon"></use>
+              </svg>
+            </button>
+
+
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="bdNavbar"
+              aria-labelledby="bdNavbarOffcanvasLabel"
+            >
+              <div class="offcanvas-header px-4 pb-0">
+                <a class="navbar-brand" href="#">
+                </a>
+                <button
+                  type="button"
+                  class="btn-close btn-close-black"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                  data-bs-target="#bdNavbar"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul
+                  id="navbar"
+                  class="navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link me-4" href="#">Software CRM</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-4" href="#">Planes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-4" href="#">Contáctanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-4" href="#">Prueba Gratis</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-4" href="#">Acceder</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--section banner-->
+    <section id="banner" class="position-relative overflow-hidden bg-white">
       <div class="container">
         <div class="row d-flex align-items-center mt-banner">
           <div class="col-sm-12 col-md-12 col-lg-8">
@@ -448,5 +568,149 @@ $basePath = env('APP_BASE_PATH', false);
     </section>
     <!--section unete-->
 
+    <footer id="footer" class="overflow-hidden bg-gradient-green-blue">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="footer-top-area">
+            <div class="row d-flex flex-wrap justify-content-between">
+              <div class="col-sm-12 col-md-12 col-lg-2 pb-3">
+                <div class="footer-menu text-uppercase">
+                  <h5 class="widget-title pb-2 text-white">Quick Links</h5>
+                  <ul class="menu-list list-unstyled text-uppercase">
+                    <li class="menu-item pb-2">
+                      <a href="#" class="">Nosotros</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">Contáctanos</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">Partners</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-@endsection
+              <div class="col-sm-12 col-md-12 col-lg-2 pb-3">
+                <div class="footer-menu text-uppercase">
+                  <h5 class="widget-title pb-2 text-white">Producto</h5>
+                  <ul class="menu-list list-unstyled text-uppercase">
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM por Sector</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">Planes</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">Funciones</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Móvil</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">API DataCRM</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-12 col-lg-2 pb-3">
+                <div class="footer-menu text-uppercase">
+                  <h5 class="widget-title pb-2 text-white">Países</h5>
+                  <ul class="menu-list list-unstyled text-uppercase">
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Colombia</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM México</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Chile</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Costa Rica</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Ecuador</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Panamá</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM Perú</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">CRM España</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-12 col-lg-2 pb-3">
+                <div class="footer-menu text-uppercase">
+                  <h5 class="widget-title pb-2 text-white">Capacítate</h5>
+                  <ul class="menu-list list-unstyled text-uppercase">
+                    <li class="menu-item pb-2">
+                      <a href="#">Centro de Ayuda</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">U. DataCRM</a>
+                    </li>
+                    <li class="menu-item pb-2">
+                      <a href="#">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-12 col-lg-2 pb-3">
+                <div class="footer-menu text-uppercase">
+                  <h5 class="widget-title pb-2 text-white">Apps Disponibles</h5>
+                  <img
+                src="<?php echo $basePath; ?>template-crm/images/home_banner_app_playstore.webp"
+                alt=""
+                width="40%"
+              />
+              <img
+                src="<?php echo $basePath; ?>template-crm/images/home_banner_app_appstore.webp"
+                alt=""
+                width="40%"
+              />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="text-white">
+      </div>
+    </footer>
+
+    <div id="footer-bottom" class="bg-gradient-green-blue">
+      <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between">
+          <div class="col-sm-12 col-md-12 col-lg-2">
+            <div class="Shipping d-flex">
+              <div class="">
+                <img src="<?php echo $basePath; ?>template-crm/images/Logodata_Horizontalblanco180x58.webp" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-8 text-center">
+              <p class="text-white">
+                DataCRM Soluciones S.A.S. / Política de Protección de Datos /
+                Términos y Condiciones / ANS
+              </p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="<?php echo $basePath; ?>template-crm/js/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="<?php echo $basePath; ?>template-crm/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="<?php echo $basePath; ?>template-crm/js/plugins.js"></script>
+    <script type="text/javascript" src="<?php echo $basePath; ?>template-crm/js/script.js"></script>
+  </body>
+</html>
